@@ -5,7 +5,7 @@ const navbar = () => {
     useGSAP(() => {
         gsap.fromTo(
             "#navbar",
-            { y: 100, opacity: 0 },
+            { y: 20, opacity: 0 },
             { y: 0, opacity: 1, duration: 0.75, delay: 1.75 }
         );
     })
