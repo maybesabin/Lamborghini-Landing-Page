@@ -1,7 +1,6 @@
 import Socials from './Socials';
 import Footer from './Footer';
 import image2 from '../assets/lambo2.png'
-import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 

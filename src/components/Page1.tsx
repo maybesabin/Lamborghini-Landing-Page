@@ -1,7 +1,6 @@
 import Socials from './Socials';
 import Footer from './Footer';
 import image1 from '../assets/bgphoto.jpg'
-import { useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 
 const frontpage = () => {
