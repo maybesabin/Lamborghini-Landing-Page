@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "La Macchina";
+  src: url('./assets/fonts/la-macchina/La Macchina.ttf');
+  font-weight: lighter;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #04070c;
+  color: white;
+}
+
+::-webkit-scrollbar{
+  z-index: 1000;
+}
